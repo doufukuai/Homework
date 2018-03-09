@@ -1,5 +1,18 @@
 
 
+**有意思的命令**
+
+```python
+import sys
+path = sys.executable
+print(path)
+path_2 = sys.path
+```
+
+
+
+
+
 ### 3.1.3. Removing the MAX_PATH Limitation
 
 Windows historically has limited path lengths to 260 characters. This meant that paths longer than this would not resolve and errors would result.
@@ -17,11 +30,14 @@ Changed in version 3.6: Support for long paths was enabled in Python.
 ### 3.3.1. Excursus: Setting environment variables[¶](https://docs.python.org/3/using/windows.html#excursus-setting-environment-variables)
 
 ```python
-C:\>set PATH=C:\Program Files\Python 3.6;%PATH%
-C:\>set PYTHONPATH=%PYTHONPATH%;C:\My_python_lib
+C:\>set PATH=C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32;%PATH%
+C:\>set PYTHONPATH=%PYTHONPATH%;C:\Use rs\Administrator\AppData\Local\Programs\My_python_lib
 C:\>python
+    
+PATH=C:/Users/Administrator/AppData/Local/Programs/Python/Python36-32;%PATH%
 ```
 
+<<<<<<< Updated upstream
 ### 怎样用 Windows 入门Python？
 
 Python 对 Windows 相当友好啊，你们不要吓唬新人。去下载安装一个 ActivePython，能给 VC/C# 程序员当辅助工具了。再装一个 Ulipad 当开发工具，在windows上可以愉悦的使用Python。不否认 Python 在 *nix 环境中的价值，但是 Python 与 windows 也是非常好的搭档。只有你需要学习 *nix 的知识时，才需要去了解如何在 *nix 中使用 Python。当你对 Python 内置的交互环境有初步了解以后，可以安装一个 ipython 作为日常的 python 交互环境使用，这个 shell 更友好，而且随着你对 python 的深入了解，还会发现 ipython 有很多高级的功能可以提高你的生产力。如果你会用 Emacs ，Emacs的Python插件使用起来非常便利。你可以尝试将 ipython 集成进去，形成一个很好的集成开发环境。作者：刘鑫链接：https://www.zhihu.com/question/21713337/answer/34481848来源：知乎著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
@@ -106,6 +122,8 @@ You have one configuration to do, to tell Git Bash where in the file system to f
 4. Assuming that worked correctly, you will want to set up git bash so that it always knows where to find python. To do that, enter the following command: `echo 'export PATH="$PATH:/c/Python27"' > .bashrc`. That will save the command into a file called .bashrc. .bashrc is executed every time git bash launches, so you won’t have to manually tell the shell where to find python again.
 5. Check to make sure that worked by typing exit, relaunching git bash, and then typing `python --version` again.
 
+
+
 ## Install and configure python for Mac
 
 
@@ -126,7 +144,7 @@ Open the Git Bash and follow bellow steps
 
 ```
 sonal@sonal-pc MINGW64 ~
-$ export PATH="$PATH:/c/Python27"
+$ export PATH="$PATH:/C/Users/Administrator/AppData/Local/Programs/Python/Python36-32"
 ```
 
 This will tell bash where to find Python.
@@ -143,7 +161,7 @@ If you want to enable Python each time you open Git Bash then apply below comman
 
 ```
 sonal@sonal-pc MINGW64 ~
-$ echo 'export PATH="$PATH:/c/Python27"' > .bashrc
+$ echo 'export PATH="$PATH:/C/Users/Administrator/AppData/Local/Programs/Python/Python36-32"' > .bashrc
 ```
 
 Lets Close the Git Bash and launch it again to make sure its working.
@@ -155,3 +173,9 @@ Python 2.7.12
 ```
 
 all set have fun !
+=======
+
+
+
+
+/C/Users/Administrator/AppData/Local/Programs/Python/Python36-32
