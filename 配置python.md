@@ -7,10 +7,20 @@
 ## 需要安装的软件
 
 1. Python 官方安装文件.
+
 2. IPython (Python交互窗口,相当于git bash)
+
 3. vscode (编辑器,相当于word,typora等,有很多输入辅助功能)
+
 4. Anaconda (数据分析和科学计算的神兵利器) 可选, 是大数据分析最先进的工具.
-5. 软件下载的百度链接.
+
+5. [软件的下载的百度链接](https://pan.baidu.com/s/1veDBZmfBRKU_6o5vbtu7Ug)
+
+   https://pan.baidu.com/s/1veDBZmfBRKU_6o5vbtu7Ug
+
+   ![安装清单](images/安装清单.png)
+
+
 
 
 ### 1. 安装python
@@ -35,7 +45,20 @@
 
    输入命令 
 
-   `python -i' 进去玩一会.  i 是interactive的首字母,代表交互模式.
+   `python -i'  输入后等一会.
+
+   进去玩一会.  i 是interactive的首字母,代表交互模式.
+
+   ```python
+   import sys
+   path = sys.executable
+   print(path)
+
+   import subprocess
+   subprocess.run('start www.baidu.com', shell=True)
+   quit()
+   #quit()  很关键, 不用交互界面就退出回到 git bash命令行.
+   ```
 
    ![python -i](images/python -i.png)
 
@@ -51,13 +74,11 @@ ipython是一个优化的python交互界面.
 
 ```python
 pip install ipython
-#然后,系统会自动下载和安装
+#然后,系统会自动下载和安装, 站起来溜达溜达,等电脑这个slave完工.
 # pip 是python installs packages的缩写.
 ```
 
 ![pip install ipython](images/pip install ipython.png)
-
-
 
 安装完成后,在进去玩一会,
 输入命令:
@@ -70,9 +91,10 @@ ipython -i
 
 ![做作业](images/做作业.png)
 
+**补充资料**
 
-
-> 嵌入到git bash的python交互界面,是python shell的其中一种,也是最高效的方式,还有很多方式可以进入python交互界面,(python shell或者叫IDLE)
+> 嵌入到git bash的python交互界面,是python shell的其中一种,也是最高效的方式,
+> 还有很多方式可以使用python交互界面,(python shell或者叫IDLE)
 >
 > 1) 比如,python自带的交互界面.
 >
@@ -84,25 +106,25 @@ ipython -i
 >
 > 
 >
-> 2) 还有一个更加不方便的是在windows,dos命令行内的交互python界面.\
+> 2) 还有一个更加不方便的是在windows原生的dos命令行内的交互python界面.\
 >
 > ![dos command](images/dos command.png)
 >
 > ![dos command 2](images/dos command 2.png)
 
-
-
-总结, 
+**总结,** 
 
 在git bash中用`ipython -i`, 运行python shell交互界面, 是比较好的选择.
 
-另外ipython有很多魔术功能,可以到英文主页上探索探索.
+另外ipython有很多魔术功能,大幅度提高效率,可以到英文主页上探索探索,
+
+
 
 ### 3. 安装vscode
 
-vscode, 相当于typora,Word,text等,只是写代码更方便和高效.
+vscode, 相当于typora,Word,text, note等,文本编辑器,只是写代码更方便和高效.
 
-1. 将文件安装到D盘,节省C盘的空间.
+1. 将文件安装到D盘,节省C盘的空间.(安装到C盘最好,如果电脑配置高,不怕消耗C盘)
 
 ![vscode_1](images/vscode_1.png)
 
@@ -123,6 +145,7 @@ vscode, 相当于typora,Word,text等,只是写代码更方便和高效.
    ```python
    cd ~desktop/english #切到english文件夹下.
    code .
+   # code 是vscode的咒语,
    ```
 
    ![vscode_dakai](images/vscode_dakai.png)
@@ -131,7 +154,9 @@ vscode, 相当于typora,Word,text等,只是写代码更方便和高效.
 
    ![vscode_4](images/vscode_4.png)
 
-6. 高效的搜索功能.(文件夹内搜索和文件内搜索)
+6. 高效的搜索功能.(文件夹内搜索和文件内搜索),
+
+   跨文件搜索是程序猿用的文本编辑器的标配,对文本管理和知识管理帮助很大.
 
    ![vscode搜索功能](images/vscode搜索功能.png)
 
@@ -197,7 +222,6 @@ vscode, 相当于typora,Word,text等,只是写代码更方便和高效.
 
       ​
 
-   ​
 
 
 #### 2.从文件中运行程序
