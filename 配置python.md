@@ -91,7 +91,9 @@ ipython -i
 
 
 
-总结, 在git bash中用`ipython -i`, 运行python shell交互界面, 是比较好的选择.
+总结, 
+
+在git bash中用`ipython -i`, 运行python shell交互界面, 是比较好的选择.
 
 另外ipython有很多魔术功能,可以到英文主页上探索探索.
 
