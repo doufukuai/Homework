@@ -2,7 +2,7 @@
 
 建议打开typora的大纲视图模式.
 
-![大纲视图](images/大纲视图.png)
+![大纲视图](https://ws4.sinaimg.cn/large/006tNc79ly1fp6ukie85kj30mo0isq59.jpg)
 
 ## 需要安装的软件
 
@@ -18,7 +18,7 @@
 
    https://pan.baidu.com/s/1veDBZmfBRKU_6o5vbtu7Ug
 
-   ![安装清单](images/安装清单.png)
+   ![安装清单](https://ws4.sinaimg.cn/large/006tNc79ly1fp6ukjr5gwj30v40h23zn.jpg)
 
 
 
@@ -29,9 +29,9 @@
 
    打开下载的python安装程序,运行后选择卸载 uninstall
 
-   ![卸载1](images/卸载1.png)
+   ![卸载1](https://ws3.sinaimg.cn/large/006tNc79ly1fp6ukfj3u7j30jp0cbmyj.jpg)
 
-   ![卸载2](images/卸载2.png)
+   ![卸载2](https://ws3.sinaimg.cn/large/006tNc79ly1fp6ukhte8jj30ip0bidgm.jpg)
 
    ​
 
@@ -39,7 +39,7 @@
 
 3. 开始安装 (如果电脑上之前没有安装,直接操作这一步)
 
-![安装](images/安装.png)
+![安装](https://ws4.sinaimg.cn/large/006tNc79ly1fp6uktnpksj30fn0aggn3.jpg)
 
 4. 等待安装完成后,打开 git bash,
 
@@ -60,7 +60,7 @@
    #quit()  很关键, 不用交互界面就退出回到 git bash命令行.
    ```
 
-   ![python -i](images/python -i.png)
+   ![python -i](https://ws3.sinaimg.cn/large/006tNc79ly1fp6uk7c561j30vl0jddlx.jpg)
 
 
 
@@ -78,7 +78,7 @@ pip install ipython
 # pip 是python installs packages的缩写.
 ```
 
-![pip install ipython](images/pip install ipython.png)
+![pip install ipython](https://ws4.sinaimg.cn/large/006tNc79ly1fp6ukdc7h2j30wu0gfgth.jpg)
 
 安装完成后,在进去玩一会,
 输入命令:
@@ -89,7 +89,7 @@ ipython -i
 #从现在开始可以忘记python -i 这个命令,全部用ipython -i 取代.
 ```
 
-![做作业](images/做作业.png)
+![做作业](https://ws4.sinaimg.cn/large/006tNc79ly1fp6ukrntv0j30u70fngo6.jpg)
 
 **补充资料**
 
@@ -98,9 +98,9 @@ ipython -i
 >
 > 1) 比如,python自带的交互界面.
 >
-> ![python idle](images/python idle.png)
+> ![python idle](https://ws4.sinaimg.cn/large/006tNc79ly1fp6ukt3jgaj30c80hngmn.jpg)
 >
-> ![python idle 2](images/python idle 2.png)
+> ![python idle 2](https://ws4.sinaimg.cn/large/006tNc79ly1fp6ukg18plj30il08taca.jpg)
 >
 > 如果使用python自带的交互界面,需要在git bash和python shell之间不断地切换,很不方便.
 >
@@ -108,9 +108,9 @@ ipython -i
 >
 > 2) 还有一个更加不方便的是在windows原生的dos命令行内的交互python界面.\
 >
-> ![dos command](images/dos command.png)
+> ![dos command](https://ws1.sinaimg.cn/large/006tNc79ly1fp6uk9xi9nj30c10ie0tg.jpg)
 >
-> ![dos command 2](images/dos command 2.png)
+> ![dos command 2](https://ws2.sinaimg.cn/large/006tNc79ly1fp6ukqopumj30i108iaan.jpg)
 
 **总结,** 
 
@@ -126,17 +126,17 @@ vscode, 相当于typora,Word,text, note等,文本编辑器,只是写代码更方
 
 1. 将文件安装到D盘,节省C盘的空间.(安装到C盘最好,如果电脑配置高,不怕消耗C盘)
 
-![vscode_1](images/vscode_1.png)
+![vscode_1](https://ws2.sinaimg.cn/large/006tNc79ly1fp6ukf242rj30eu0bhmy9.jpg)
 
 2. 其他选项全部勾选,
 
    ​
 
-   ![vscode_2](images/vscode_2.png)
+   ![vscode_2](https://ws2.sinaimg.cn/large/006tNc79ly1fp6ukgj3y5j30ek0bnabi.jpg)
 
 3. 杀毒报错的处理
 
-![vscode_3](images/vscode_3.png)
+![vscode_3](https://ws4.sinaimg.cn/large/006tNc79ly1fp6ukjaxd8j30i10dqtb3.jpg)
 
 
 
@@ -148,17 +148,17 @@ vscode, 相当于typora,Word,text, note等,文本编辑器,只是写代码更方
    # code 是vscode的咒语,
    ```
 
-   ![vscode_dakai](images/vscode_dakai.png)
+   ![vscode_dakai](https://ws1.sinaimg.cn/large/006tNc79ly1fp6uksa5x3j30n306z75g.jpg)
 
 5. 打开后
 
-   ![vscode_4](images/vscode_4.png)
+   ![vscode_4](https://ws3.sinaimg.cn/large/006tNc79ly1fp6ukh6smpj30ug0j4tdo.jpg)
 
 6. 高效的搜索功能.(文件夹内搜索和文件内搜索),
 
    跨文件搜索是程序猿用的文本编辑器的标配,对文本管理和知识管理帮助很大.
 
-   ![vscode搜索功能](images/vscode搜索功能.png)
+   ![vscode搜索功能](https://ws4.sinaimg.cn/large/006tNc79ly1fp6uk91sevj30qf0ipq6m.jpg)
 
 7. 当然最关键的功能是写代码.
 
@@ -174,17 +174,17 @@ vscode, 相当于typora,Word,text, note等,文本编辑器,只是写代码更方
 
 1. 选择安装到D盘,节省C盘空间.
 
-![anacoda_install_to_d](images/anacoda_install_to_d.png)
+![anacoda_install_to_d](https://ws3.sinaimg.cn/large/006tNc79ly1fp6ukcbk2sj30i60bp40l.jpg)
 
 
 
 2. 高级选项,都勾选
 
-   ![anacoda_install_to_d_2](images/anacoda_install_3.png)
+   ![anacoda_install_to_d_2](https://ws3.sinaimg.cn/large/006tNc79ly1fp6uksnlxaj30dt0awq4d.jpg)
 
 3. 最后跳过vscode的安装(已经安装过了)
 
-![跳过vscode的安装](images/跳过vscode的安装.png)
+![跳过vscode的安装](https://ws4.sinaimg.cn/large/006tNc79ly1fp6ukr842cj30ef0bhta6.jpg)
 
 
 
@@ -198,11 +198,11 @@ vscode, 相当于typora,Word,text, note等,文本编辑器,只是写代码更方
 
    1) 设置默认打开程序为vscode.
 
-   ![默认打开程序为vscode](images/默认打开程序为vscode.png)
+   ![默认打开程序为vscode](https://ws1.sinaimg.cn/large/006tNc79ly1fp6uk6km6rj30l20bxq4g.jpg)
 
    2) 打开后复制里面的代码.
 
-   ![复制代码](images/复制代码.png)
+   ![复制代码](https://ws3.sinaimg.cn/large/006tNc79ly1fp6ukav4wnj30pb0a1gn7.jpg)
 
    3)切换到git bash中.(快捷键 Alt +Tab),
 
@@ -214,7 +214,7 @@ vscode, 相当于typora,Word,text, note等,文本编辑器,只是写代码更方
 
    将刚才复制的内容,粘贴到交互窗口中.
 
-   ![ipython中打开dict](images/ipython中打开dict.png)
+   ![ipython中打开dict](https://ws2.sinaimg.cn/large/006tNc79ly1fp6uk830a7j30lp0iu77o.jpg)
 
    ​
 
@@ -255,7 +255,7 @@ vscode, 相当于typora,Word,text, note等,文本编辑器,只是写代码更方
    省去了手工的操作..
    ```
 
-   ![最后一步](images/最后一步.png)
+   ![最后一步](https://ws1.sinaimg.cn/large/006tNc79ly1fp6ukbdni1j30iu04rwf2.jpg)
 
 3. 以后每次要查词典,做作业的时候,两部操作
 
@@ -270,4 +270,4 @@ vscode, 相当于typora,Word,text, note等,文本编辑器,只是写代码更方
 
 推荐在大纲视图下,阅读和写作.
 
-![收尾](images/收尾.png)
+![收尾](https://ws2.sinaimg.cn/large/006tNc79ly1fp6uke8zkrj30ea0eiwgb.jpg)
