@@ -10,6 +10,7 @@
 2. IPython (Python交互窗口,相当于git bash)
 3. vscode (编辑器,相当于word,typora等,有很多输入辅助功能)
 4. Anaconda (数据分析和科学计算的神兵利器) 可选, 是大数据分析最先进的工具.
+5. 软件下载的百度链接.
 
 
 ### 1. 安装python
@@ -162,4 +163,85 @@ vscode, 相当于typora,Word,text等,只是写代码更方便和高效.
 
 ### 5. python的应用实例
 
-实例中不涉及第四个软件Anaconda.
+实例中不涉及第四个软件Anaconda, 
+
+#### 1) 从交互界面中运行程序.
+
+1. 到刚才下载的安装清单中,找到文件`dictionaries.py`, 
+
+   1) 设置默认打开程序为vscode.
+
+   ![默认打开程序为vscode](images/默认打开程序为vscode.png)
+
+   2) 打开后复制里面的代码.
+
+   ![复制代码](images/复制代码.png)
+
+   3)切换到git bash中.(快捷键 Alt +Tab),
+
+   先启动python交互界面
+
+   ```python
+   ipython -i
+   ```
+
+   将刚才复制的内容,粘贴到交互窗口中.
+
+   ![ipython中打开dict](images/ipython中打开dict.png)
+
+   ​
+
+   4. 关闭浏览器.
+
+      ​
+
+   ​
+
+
+#### 2.从文件中运行程序
+
+1. 将刚才的文件复制到桌面上,可以手动操作,
+
+   也可以在git bash中用下面的代码
+
+   ```python
+   #退出python交互界面
+   quit()
+   #复制文件到桌面
+   cp  /c/Users/Administrator/Desktop/Homework/dictionaries.py  ~/desktop
+   #git bash的切换到桌面上工作
+   cd ~/desktop
+   /desktop前面加波浪线 ~, 是绝对路径,无论现在哪里都能切换回到桌面.
+   ```
+
+   cp是copy, 将文件拖拽到cp的后面,会自动出现`/c/Users/Administrator/Desktop/Homework/dictionaries.py`,然后是桌面 ` ~/desktop`
+
+   ​
+
+2. 在git bash中运行文件.
+
+   ```python
+   ipython dictionaries.py
+   #或者
+   python dictionaris.py
+   都能从dictionaries这个python代码文件中打开词典网页.
+   推荐用ipython,这样与 ipython -i 保持一致.
+   省去了手工的操作..
+   ```
+
+   ![最后一步](images/最后一步.png)
+
+3. 以后每次要查词典,做作业的时候,两部操作
+
+   ```python
+   cd ~/desktop #确保在桌面的目录下
+   ipython dictionaries.py
+   ```
+
+   ​
+
+## 收尾
+
+推荐在大纲视图下,阅读和写作.
+
+![收尾](images/收尾.png)
