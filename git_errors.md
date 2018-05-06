@@ -1,6 +1,25 @@
 
 
-## Error1
+## Error2
+
+- Eliminate conflicts in a dumb way:
+
+```python
+cd ~/desktop/
+rm -rf english
+git clone https://github.com/aqua2018/English.git
+git remote add upstream https://github.com/M-DFK/English.git
+git fetch upstream 
+git merge upstream/master
+```
+- 昨晚发的新@aqua.md文件也在文件夹里面了,不必再从微信中复制过来.
+
+- 后面是正常的作业流程.
+
+  ​
+
+
+##  Error1
 
 没有在自己GitHub账户上填写内容的步骤.
 
@@ -30,21 +49,17 @@
 
 3. 到你的Github账户中去操作.
 
-   ![发起pull request](images/发起pull request.png)
+   ![发起pull request](https://ws4.sinaimg.cn/large/006tNbRwgy1fp8vd3p8wzj30qt0fpact.jpg)
 
-   ![创建pull request](images/创建pull request.png)
+   ![创建pull request](https://ws1.sinaimg.cn/large/006tNbRwgy1fp8vcmqp0lj30tr0gdmzn.jpg)
 
-   ![done](images/done.png)
+   ![done](https://ws4.sinaimg.cn/large/006tNbRwgy1fp8vcl7xhuj30ku0fwq4p.jpg)
 
-   ![创建成功](images/创建成功.png)
+   ![创建成功](https://ws3.sinaimg.cn/large/006tNbRwgy1fp8vcnhylfj30qt0fpact.jpg)
 
 
 
 推荐一款提高效率的工具,多次黏贴复制,xclip,
 
 https://jingyan.baidu.com/article/8cdccae9636642315413cd9f.html
-
-##  连续多次复制黏贴的工具
-
-Xclip
 

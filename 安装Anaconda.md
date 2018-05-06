@@ -1,9 +1,15 @@
+---
+typora-copy-images-to: ipic
+---
+
 
 
 ###  安装Anaconda
 
 1. 下载Anaconda:
    - 官网下载地址: https://www.anaconda.com/download/
+
+     ![Screen Shot 2018-05-06 at 4.13.25 PM](../Screen Shot 2018-05-06 at 4.13.25 PM.png)
 
 
 
