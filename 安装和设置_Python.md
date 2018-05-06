@@ -1,19 +1,17 @@
----
-typora-copy-images-to: ipic
----
-
 
 
 ###  安装Anaconda
 
 1. 下载Anaconda:
    - 官网下载地址: https://www.anaconda.com/download/
+   - 单击下载
+     - Python 3.6 Version
+     - 64 bit graphical installer(595MB).
+     - ![Screen Shot 2018-05-06 at 4.13.25 PM](https://ws1.sinaimg.cn/large/006tKfTcly1fr1p71zm1pj30p00fi75k.jpg)
 
-     ![Screen Shot 2018-05-06 at 4.13.25 PM](../Screen Shot 2018-05-06 at 4.13.25 PM.png)
 
 
-
-2. 选择安装到D盘,节省C盘空间.
+2. 安装选择安装到D盘.
 
 ![anacoda_install_to_d](https://ws3.sinaimg.cn/large/006tNc79ly1fp6ukcbk2sj30i60bp40l.jpg)
 
