@@ -23,7 +23,7 @@
 
 4. 安装Microsoft vscode的安装
 
-​         这个图片是错的, (我偷个懒用以前的图片)
+​         **这个图片是错的**, (我偷个懒用以前的图片)
 
 ​         不要skip,点击 'install Microsoft VSCode'
 
@@ -31,3 +31,14 @@
 
 
 
+5. 安装后测试:
+
+   打开 "git bash", 输入
+
+   ```
+   ipython -i
+   ```
+
+   ​
+
+   ![Snipaste_2018-05-06_16-34-32](Snipaste_2018-05-06_16-34-32.png)
